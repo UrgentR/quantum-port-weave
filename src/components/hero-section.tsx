@@ -38,9 +38,9 @@ export default function HeroSection() {
       >
         {/* Main heading */}
         <motion.div variants={itemVariants} className="mb-8">
-          <h1 className="text-6xl md:text-8xl font-bold mb-4 quantum-text font-mono">
+           <h1 className="text-5xl md:text-7xl font-bold mb-4 quantum-text tracking-tight">
             <TypingAnimation 
-              text="AI PORTFOLIO" 
+              text="AI DEVELOPER" 
               speed={100}
               className="block"
               onComplete={() => setTypingComplete(true)}
@@ -53,8 +53,8 @@ export default function HeroSection() {
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.8, delay: 0.5 }}
             >
-              <h2 className="text-2xl md:text-4xl text-muted-foreground font-light">
-                Futuristic Digital Workspace
+              <h2 className="text-xl md:text-2xl text-muted-foreground font-light">
+                Modern Web Solutions & AI Integration
               </h2>
             </motion.div>
           )}
@@ -70,9 +70,9 @@ export default function HeroSection() {
               <div className="w-12 h-12 mx-auto mb-4 bg-gradient-neural rounded-full flex items-center justify-center neural-glow">
                 <span className="text-2xl">🧠</span>
               </div>
-              <h3 className="text-lg font-semibold mb-2">AI-Powered</h3>
+              <h3 className="text-lg font-semibold mb-2">AI Integration</h3>
               <p className="text-sm text-muted-foreground">
-                Intelligent design with adaptive interfaces
+                Modern AI solutions for web applications
               </p>
             </div>
           </HolographicCard>
@@ -82,9 +82,9 @@ export default function HeroSection() {
               <div className="w-12 h-12 mx-auto mb-4 bg-gradient-holographic rounded-full flex items-center justify-center">
                 <span className="text-2xl">⚡</span>
               </div>
-              <h3 className="text-lg font-semibold mb-2">Interactive 3D</h3>
+              <h3 className="text-lg font-semibold mb-2">React & TypeScript</h3>
               <p className="text-sm text-muted-foreground">
-                Immersive holographic experiences
+                Scalable frontend development
               </p>
             </div>
           </HolographicCard>
@@ -94,9 +94,9 @@ export default function HeroSection() {
               <div className="w-12 h-12 mx-auto mb-4 bg-gradient-quantum rounded-full flex items-center justify-center">
                 <span className="text-2xl">🚀</span>
               </div>
-              <h3 className="text-lg font-semibold mb-2">Future-Ready</h3>
+              <h3 className="text-lg font-semibold mb-2">User Experience</h3>
               <p className="text-sm text-muted-foreground">
-                Next-generation web technologies
+                Intuitive and accessible design
               </p>
             </div>
           </HolographicCard>
@@ -135,7 +135,7 @@ export default function HeroSection() {
           className="flex items-center justify-center gap-2 text-sm text-muted-foreground font-mono"
         >
           <div className="w-2 h-2 bg-neural-glow rounded-full animate-pulse" />
-          <span>SYSTEMS ONLINE • NEURAL NETWORKS ACTIVE</span>
+          <span>AVAILABLE FOR OPPORTUNITIES • REMOTE READY</span>
           <div className="w-2 h-2 bg-primary rounded-full animate-pulse" />
         </motion.div>
       </motion.div>

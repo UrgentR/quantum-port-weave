@@ -41,12 +41,12 @@ export default function AboutSection() {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2 className="text-5xl font-bold mb-6 quantum-text font-mono">
+          <h2 className="text-4xl md:text-5xl font-bold mb-6 quantum-text tracking-tight">
             About Me
           </h2>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            I'm a digital architect building the future of web experiences through AI, 
-            3D graphics, and cutting-edge technologies.
+          <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
+            I'm a software engineer specializing in AI-driven web applications, 
+            modern development practices, and innovative user experiences.
           </p>
         </motion.div>
 
@@ -58,17 +58,17 @@ export default function AboutSection() {
                 <Brain className="h-8 w-8 text-background" />
               </div>
               
-              <h3 className="text-2xl font-bold mb-4">Digital Innovator</h3>
+              <h3 className="text-2xl font-bold mb-4">Software Engineer</h3>
               
-              <div className="space-y-4 text-muted-foreground">
+              <div className="space-y-4 text-muted-foreground leading-relaxed">
                 <p>
-                  I specialize in creating immersive digital experiences that bridge 
-                  the gap between imagination and reality. My work combines artificial 
-                  intelligence, 3D graphics, and intuitive design.
+                  I specialize in developing scalable web applications with a focus on 
+                  artificial intelligence integration, modern UI/UX design, and 
+                  performance optimization.
                 </p>
                 <p>
-                  With expertise in modern frameworks and emerging technologies, 
-                  I craft solutions that are not just functional, but truly revolutionary.
+                  With expertise in React, TypeScript, and AI technologies, I build 
+                  solutions that are elegant, efficient, and user-centered.
                 </p>
               </div>
 

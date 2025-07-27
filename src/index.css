@@ -8,63 +8,63 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    /* AI-themed futuristic colors */
-    --background: 220 27% 8%;
-    --foreground: 200 50% 95%;
+    /* Professional dark theme with subtle AI accents */
+    --background: 220 20% 6%;
+    --foreground: 210 15% 92%;
 
-    --card: 220 27% 10%;
-    --card-foreground: 200 50% 95%;
+    --card: 220 20% 8%;
+    --card-foreground: 210 15% 92%;
 
-    --popover: 220 27% 10%;
-    --popover-foreground: 200 50% 95%;
+    --popover: 220 20% 8%;
+    --popover-foreground: 210 15% 92%;
 
-    --primary: 193 100% 50%;
-    --primary-foreground: 220 27% 8%;
+    --primary: 210 90% 65%;
+    --primary-foreground: 220 20% 6%;
 
-    --secondary: 240 100% 20%;
-    --secondary-foreground: 200 50% 95%;
+    --secondary: 220 15% 12%;
+    --secondary-foreground: 210 15% 85%;
 
-    --muted: 220 27% 15%;
-    --muted-foreground: 200 20% 70%;
+    --muted: 220 15% 12%;
+    --muted-foreground: 210 10% 65%;
 
-    --accent: 280 100% 70%;
-    --accent-foreground: 220 27% 8%;
+    --accent: 240 50% 70%;
+    --accent-foreground: 220 20% 6%;
 
-    --destructive: 0 84.2% 60.2%;
+    --destructive: 0 72% 51%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 220 27% 20%;
-    --input: 220 27% 15%;
-    --ring: 193 100% 50%;
+    --border: 220 15% 18%;
+    --input: 220 15% 12%;
+    --ring: 210 90% 65%;
 
-    --radius: 0.75rem;
+    --radius: 0.5rem;
 
-    /* AI-themed design tokens */
-    --holographic: 193 100% 50%;
-    --holographic-secondary: 280 100% 70%;
-    --neural-glow: 160 100% 50%;
-    --cyber-purple: 270 100% 60%;
-    --quantum-blue: 220 100% 60%;
+    /* Professional AI-themed design tokens */
+    --holographic: 210 90% 65%;
+    --holographic-secondary: 240 50% 70%;
+    --neural-glow: 200 85% 60%;
+    --cyber-purple: 260 50% 65%;
+    --quantum-blue: 220 80% 65%;
     
-    /* Glassmorphism effects */
-    --glass-bg: 220 27% 10% / 0.1;
-    --glass-border: 200 50% 95% / 0.1;
-    --glass-blur: blur(20px);
+    /* Professional glassmorphism effects */
+    --glass-bg: 220 20% 8% / 0.8;
+    --glass-border: 210 15% 92% / 0.08;
+    --glass-blur: blur(16px);
     
-    /* Gradients */
+    /* Subtle professional gradients */
     --gradient-holographic: linear-gradient(135deg, hsl(var(--holographic)), hsl(var(--holographic-secondary)));
     --gradient-neural: linear-gradient(45deg, hsl(var(--neural-glow)), hsl(var(--cyber-purple)));
     --gradient-quantum: linear-gradient(180deg, hsl(var(--quantum-blue)), hsl(var(--primary)));
     
-    /* Glows and shadows */
-    --glow-primary: 0 0 20px hsl(var(--primary) / 0.5);
-    --glow-holographic: 0 0 30px hsl(var(--holographic) / 0.4);
-    --glow-neural: 0 0 40px hsl(var(--neural-glow) / 0.3);
-    --shadow-elevated: 0 20px 40px -10px hsl(var(--background) / 0.8);
+    /* Refined glows and shadows */
+    --glow-primary: 0 0 16px hsl(var(--primary) / 0.25);
+    --glow-holographic: 0 0 20px hsl(var(--holographic) / 0.2);
+    --glow-neural: 0 0 24px hsl(var(--neural-glow) / 0.15);
+    --shadow-elevated: 0 8px 32px -8px hsl(220 20% 3% / 0.6);
     
-    /* Animations */
-    --transition-smooth: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-    --transition-bounce: all 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    /* Smooth professional animations */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-bounce: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 
     --sidebar-background: 0 0% 98%;
 
@@ -84,37 +84,37 @@ All colors MUST be HSL.
   }
 
   .light {
-    /* Light mode with subtle AI theme */
-    --background: 200 50% 98%;
-    --foreground: 220 27% 15%;
+    /* Professional light mode */
+    --background: 210 15% 98%;
+    --foreground: 220 20% 12%;
     --card: 0 0% 100%;
-    --card-foreground: 220 27% 15%;
+    --card-foreground: 220 20% 12%;
     --popover: 0 0% 100%;
-    --popover-foreground: 220 27% 15%;
-    --primary: 193 100% 40%;
-    --primary-foreground: 200 50% 98%;
-    --secondary: 200 20% 95%;
-    --secondary-foreground: 220 27% 15%;
-    --muted: 200 20% 95%;
-    --muted-foreground: 220 15% 50%;
-    --accent: 280 100% 50%;
-    --accent-foreground: 200 50% 98%;
-    --border: 200 20% 90%;
-    --input: 200 20% 95%;
-    --ring: 193 100% 40%;
+    --popover-foreground: 220 20% 12%;
+    --primary: 210 90% 50%;
+    --primary-foreground: 210 15% 98%;
+    --secondary: 210 10% 96%;
+    --secondary-foreground: 220 20% 12%;
+    --muted: 210 10% 96%;
+    --muted-foreground: 220 15% 45%;
+    --accent: 240 50% 55%;
+    --accent-foreground: 210 15% 98%;
+    --border: 210 10% 90%;
+    --input: 210 10% 96%;
+    --ring: 210 90% 50%;
     
-    --holographic: 193 100% 40%;
-    --holographic-secondary: 280 100% 50%;
-    --neural-glow: 160 100% 40%;
-    --cyber-purple: 270 100% 45%;
-    --quantum-blue: 220 100% 50%;
+    --holographic: 210 90% 50%;
+    --holographic-secondary: 240 50% 55%;
+    --neural-glow: 200 85% 45%;
+    --cyber-purple: 260 50% 50%;
+    --quantum-blue: 220 80% 55%;
     
-    --glass-bg: 0 0% 100% / 0.1;
-    --glass-border: 220 27% 15% / 0.1;
+    --glass-bg: 0 0% 100% / 0.8;
+    --glass-border: 220 20% 12% / 0.06;
     
-    --glow-primary: 0 0 20px hsl(var(--primary) / 0.3);
-    --glow-holographic: 0 0 30px hsl(var(--holographic) / 0.2);
-    --glow-neural: 0 0 40px hsl(var(--neural-glow) / 0.2);
+    --glow-primary: 0 0 16px hsl(var(--primary) / 0.15);
+    --glow-holographic: 0 0 20px hsl(var(--holographic) / 0.12);
+    --glow-neural: 0 0 24px hsl(var(--neural-glow) / 0.1);
   }
 }
 
@@ -125,67 +125,72 @@ All colors MUST be HSL.
 
   body {
     @apply bg-background text-foreground overflow-x-hidden;
-    font-family: 'Inter', 'Segoe UI', system-ui, sans-serif;
+    font-family: 'Inter', 'SF Pro Display', -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+    font-feature-settings: 'cv01', 'cv02', 'cv03', 'cv04';
+    letter-spacing: -0.01em;
   }
   
-  /* Futuristic typography */
+  /* Professional monospace typography */
   .font-mono {
-    font-family: 'JetBrains Mono', 'Fira Code', 'Courier New', monospace;
+    font-family: 'SF Mono', 'Monaco', 'Inconsolata', 'Fira Code', 'Droid Sans Mono', monospace;
+    font-feature-settings: 'liga' 0;
   }
 }
 
 @layer components {
-  /* Glassmorphism utility classes */
+  /* Professional glassmorphism utility classes */
   .glass {
-    @apply backdrop-blur-xl border border-white/10;
-    background: rgba(255, 255, 255, 0.05);
-    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    @apply backdrop-blur-2xl border;
+    background: hsl(var(--glass-bg));
+    border-color: hsl(var(--glass-border));
+    box-shadow: 0 4px 16px 0 hsl(220 20% 3% / 0.2);
   }
   
   .glass-card {
-    @apply glass rounded-xl p-6;
+    @apply glass rounded-lg p-6;
   }
   
-  /* Holographic effects */
+  /* Subtle holographic effects */
   .holographic {
     background: var(--gradient-holographic);
-    background-size: 200% 200%;
-    animation: holographic-shift 3s ease-in-out infinite;
+    background-size: 150% 150%;
+    animation: holographic-shift 6s ease-in-out infinite;
   }
   
   .holographic-border {
     position: relative;
     border: 1px solid transparent;
-    background: linear-gradient(var(--glass-bg), var(--glass-bg)) padding-box,
+    background: linear-gradient(hsl(var(--glass-bg)), hsl(var(--glass-bg))) padding-box,
                 var(--gradient-holographic) border-box;
   }
   
-  /* Neural network glow */
+  /* Refined neural glow */
   .neural-glow {
     box-shadow: var(--glow-neural);
-    animation: neural-pulse 2s ease-in-out infinite alternate;
+    animation: neural-pulse 4s ease-in-out infinite alternate;
   }
   
-  /* Quantum effects */
+  /* Professional quantum effects */
   .quantum-text {
     background: var(--gradient-quantum);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    background-size: 200% 200%;
-    animation: quantum-flow 4s ease-in-out infinite;
+    background-size: 150% 150%;
+    animation: quantum-flow 8s ease-in-out infinite;
   }
   
-  /* Floating animation */
+  /* Gentle floating animation */
   .floating {
-    animation: floating 6s ease-in-out infinite;
+    animation: floating 8s ease-in-out infinite;
   }
   
-  /* Typing cursor */
+  /* Professional typing cursor */
   .typing-cursor::after {
     content: '|';
-    animation: cursor-blink 1s infinite;
+    animation: cursor-blink 1.2s infinite;
     color: hsl(var(--primary));
+    opacity: 0.8;
   }
 }
 
@@ -198,7 +203,7 @@ All colors MUST be HSL.
   
   @keyframes neural-pulse {
     0% { box-shadow: var(--glow-neural); }
-    100% { box-shadow: 0 0 60px hsl(var(--neural-glow) / 0.6); }
+    100% { box-shadow: 0 0 32px hsl(var(--neural-glow) / 0.3); }
   }
   
   @keyframes quantum-flow {
@@ -208,17 +213,17 @@ All colors MUST be HSL.
   
   @keyframes floating {
     0%, 100% { transform: translateY(0px); }
-    50% { transform: translateY(-20px); }
+    50% { transform: translateY(-12px); }
   }
   
   @keyframes cursor-blink {
-    0%, 50% { opacity: 1; }
-    51%, 100% { opacity: 0; }
+    0%, 60% { opacity: 1; }
+    61%, 100% { opacity: 0; }
   }
   
   @keyframes particle-float {
     0%, 100% { transform: translateY(0px) rotate(0deg); }
-    33% { transform: translateY(-30px) rotate(120deg); }
-    66% { transform: translateY(-60px) rotate(240deg); }
+    33% { transform: translateY(-20px) rotate(60deg); }
+    66% { transform: translateY(-40px) rotate(120deg); }
   }
 }

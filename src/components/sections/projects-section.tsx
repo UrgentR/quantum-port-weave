@@ -59,12 +59,12 @@ export default function ProjectsSection() {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2 className="text-5xl font-bold mb-6 quantum-text font-mono">
+          <h2 className="text-4xl md:text-5xl font-bold mb-6 quantum-text tracking-tight">
             Featured Projects
           </h2>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Cutting-edge applications that showcase the fusion of AI, 3D graphics, 
-            and innovative web technologies.
+          <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
+            A showcase of applications demonstrating modern web technologies, 
+            AI integration, and innovative user experiences.
           </p>
         </motion.div>
 
