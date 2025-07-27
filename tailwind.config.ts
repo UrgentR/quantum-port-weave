@@ -61,7 +61,27 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+				// AI-themed custom colors
+				holographic: 'hsl(var(--holographic))',
+				'holographic-secondary': 'hsl(var(--holographic-secondary))',
+				'neural-glow': 'hsl(var(--neural-glow))',
+				'cyber-purple': 'hsl(var(--cyber-purple))',
+				'quantum-blue': 'hsl(var(--quantum-blue))'
+			},
+			backgroundImage: {
+				'gradient-holographic': 'var(--gradient-holographic)',
+				'gradient-neural': 'var(--gradient-neural)',
+				'gradient-quantum': 'var(--gradient-quantum)'
+			},
+			backdropBlur: {
+				'xs': '2px',
+			},
+			boxShadow: {
+				'glow': 'var(--glow-primary)',
+				'glow-holographic': 'var(--glow-holographic)',
+				'glow-neural': 'var(--glow-neural)',
+				'elevated': 'var(--shadow-elevated)'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
@@ -88,7 +108,17 @@ export default {
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'holographic-shift': 'holographic-shift 3s ease-in-out infinite',
+				'neural-pulse': 'neural-pulse 2s ease-in-out infinite alternate',
+				'quantum-flow': 'quantum-flow 4s ease-in-out infinite',
+				'floating': 'floating 6s ease-in-out infinite',
+				'cursor-blink': 'cursor-blink 1s infinite',
+				'particle-float': 'particle-float 8s ease-in-out infinite'
+			},
+			transitionTimingFunction: {
+				'smooth': 'cubic-bezier(0.4, 0, 0.2, 1)',
+				'bounce': 'cubic-bezier(0.68, -0.55, 0.265, 1.55)'
 			}
 		}
 	},

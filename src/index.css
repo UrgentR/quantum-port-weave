@@ -8,35 +8,63 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    /* AI-themed futuristic colors */
+    --background: 220 27% 8%;
+    --foreground: 200 50% 95%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card: 220 27% 10%;
+    --card-foreground: 200 50% 95%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover: 220 27% 10%;
+    --popover-foreground: 200 50% 95%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 193 100% 50%;
+    --primary-foreground: 220 27% 8%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 240 100% 20%;
+    --secondary-foreground: 200 50% 95%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 220 27% 15%;
+    --muted-foreground: 200 20% 70%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 280 100% 70%;
+    --accent-foreground: 220 27% 8%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 220 27% 20%;
+    --input: 220 27% 15%;
+    --ring: 193 100% 50%;
 
-    --radius: 0.5rem;
+    --radius: 0.75rem;
+
+    /* AI-themed design tokens */
+    --holographic: 193 100% 50%;
+    --holographic-secondary: 280 100% 70%;
+    --neural-glow: 160 100% 50%;
+    --cyber-purple: 270 100% 60%;
+    --quantum-blue: 220 100% 60%;
+    
+    /* Glassmorphism effects */
+    --glass-bg: 220 27% 10% / 0.1;
+    --glass-border: 200 50% 95% / 0.1;
+    --glass-blur: blur(20px);
+    
+    /* Gradients */
+    --gradient-holographic: linear-gradient(135deg, hsl(var(--holographic)), hsl(var(--holographic-secondary)));
+    --gradient-neural: linear-gradient(45deg, hsl(var(--neural-glow)), hsl(var(--cyber-purple)));
+    --gradient-quantum: linear-gradient(180deg, hsl(var(--quantum-blue)), hsl(var(--primary)));
+    
+    /* Glows and shadows */
+    --glow-primary: 0 0 20px hsl(var(--primary) / 0.5);
+    --glow-holographic: 0 0 30px hsl(var(--holographic) / 0.4);
+    --glow-neural: 0 0 40px hsl(var(--neural-glow) / 0.3);
+    --shadow-elevated: 0 20px 40px -10px hsl(var(--background) / 0.8);
+    
+    /* Animations */
+    --transition-smooth: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-bounce: all 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 
     --sidebar-background: 0 0% 98%;
 
@@ -55,42 +83,38 @@ All colors MUST be HSL.
     --sidebar-ring: 217.2 91.2% 59.8%;
   }
 
-  .dark {
-    --background: 222.2 84% 4.9%;
-    --foreground: 210 40% 98%;
-
-    --card: 222.2 84% 4.9%;
-    --card-foreground: 210 40% 98%;
-
-    --popover: 222.2 84% 4.9%;
-    --popover-foreground: 210 40% 98%;
-
-    --primary: 210 40% 98%;
-    --primary-foreground: 222.2 47.4% 11.2%;
-
-    --secondary: 217.2 32.6% 17.5%;
-    --secondary-foreground: 210 40% 98%;
-
-    --muted: 217.2 32.6% 17.5%;
-    --muted-foreground: 215 20.2% 65.1%;
-
-    --accent: 217.2 32.6% 17.5%;
-    --accent-foreground: 210 40% 98%;
-
-    --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 210 40% 98%;
-
-    --border: 217.2 32.6% 17.5%;
-    --input: 217.2 32.6% 17.5%;
-    --ring: 212.7 26.8% 83.9%;
-    --sidebar-background: 240 5.9% 10%;
-    --sidebar-foreground: 240 4.8% 95.9%;
-    --sidebar-primary: 224.3 76.3% 48%;
-    --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 240 3.7% 15.9%;
-    --sidebar-accent-foreground: 240 4.8% 95.9%;
-    --sidebar-border: 240 3.7% 15.9%;
-    --sidebar-ring: 217.2 91.2% 59.8%;
+  .light {
+    /* Light mode with subtle AI theme */
+    --background: 200 50% 98%;
+    --foreground: 220 27% 15%;
+    --card: 0 0% 100%;
+    --card-foreground: 220 27% 15%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 220 27% 15%;
+    --primary: 193 100% 40%;
+    --primary-foreground: 200 50% 98%;
+    --secondary: 200 20% 95%;
+    --secondary-foreground: 220 27% 15%;
+    --muted: 200 20% 95%;
+    --muted-foreground: 220 15% 50%;
+    --accent: 280 100% 50%;
+    --accent-foreground: 200 50% 98%;
+    --border: 200 20% 90%;
+    --input: 200 20% 95%;
+    --ring: 193 100% 40%;
+    
+    --holographic: 193 100% 40%;
+    --holographic-secondary: 280 100% 50%;
+    --neural-glow: 160 100% 40%;
+    --cyber-purple: 270 100% 45%;
+    --quantum-blue: 220 100% 50%;
+    
+    --glass-bg: 0 0% 100% / 0.1;
+    --glass-border: 220 27% 15% / 0.1;
+    
+    --glow-primary: 0 0 20px hsl(var(--primary) / 0.3);
+    --glow-holographic: 0 0 30px hsl(var(--holographic) / 0.2);
+    --glow-neural: 0 0 40px hsl(var(--neural-glow) / 0.2);
   }
 }
 
@@ -100,6 +124,101 @@ All colors MUST be HSL.
   }
 
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground overflow-x-hidden;
+    font-family: 'Inter', 'Segoe UI', system-ui, sans-serif;
+  }
+  
+  /* Futuristic typography */
+  .font-mono {
+    font-family: 'JetBrains Mono', 'Fira Code', 'Courier New', monospace;
+  }
+}
+
+@layer components {
+  /* Glassmorphism utility classes */
+  .glass {
+    @apply backdrop-blur-xl border border-white/10;
+    background: rgba(255, 255, 255, 0.05);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  }
+  
+  .glass-card {
+    @apply glass rounded-xl p-6;
+  }
+  
+  /* Holographic effects */
+  .holographic {
+    background: var(--gradient-holographic);
+    background-size: 200% 200%;
+    animation: holographic-shift 3s ease-in-out infinite;
+  }
+  
+  .holographic-border {
+    position: relative;
+    border: 1px solid transparent;
+    background: linear-gradient(var(--glass-bg), var(--glass-bg)) padding-box,
+                var(--gradient-holographic) border-box;
+  }
+  
+  /* Neural network glow */
+  .neural-glow {
+    box-shadow: var(--glow-neural);
+    animation: neural-pulse 2s ease-in-out infinite alternate;
+  }
+  
+  /* Quantum effects */
+  .quantum-text {
+    background: var(--gradient-quantum);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% 200%;
+    animation: quantum-flow 4s ease-in-out infinite;
+  }
+  
+  /* Floating animation */
+  .floating {
+    animation: floating 6s ease-in-out infinite;
+  }
+  
+  /* Typing cursor */
+  .typing-cursor::after {
+    content: '|';
+    animation: cursor-blink 1s infinite;
+    color: hsl(var(--primary));
+  }
+}
+
+@layer utilities {
+  /* Custom keyframes */
+  @keyframes holographic-shift {
+    0%, 100% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+  }
+  
+  @keyframes neural-pulse {
+    0% { box-shadow: var(--glow-neural); }
+    100% { box-shadow: 0 0 60px hsl(var(--neural-glow) / 0.6); }
+  }
+  
+  @keyframes quantum-flow {
+    0%, 100% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+  }
+  
+  @keyframes floating {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-20px); }
+  }
+  
+  @keyframes cursor-blink {
+    0%, 50% { opacity: 1; }
+    51%, 100% { opacity: 0; }
+  }
+  
+  @keyframes particle-float {
+    0%, 100% { transform: translateY(0px) rotate(0deg); }
+    33% { transform: translateY(-30px) rotate(120deg); }
+    66% { transform: translateY(-60px) rotate(240deg); }
   }
 }
