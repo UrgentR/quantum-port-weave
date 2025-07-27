@@ -29,136 +29,82 @@ export default function HeroSection() {
   }
 
   return (
-    <section id="home" className="min-h-screen flex items-center justify-center relative px-4">
-      <motion.div
-        variants={containerVariants}
-        initial="hidden"
-        animate="visible"
-        className="max-w-6xl mx-auto text-center"
-      >
-        {/* Main heading */}
-        <motion.div variants={itemVariants} className="mb-8">
-           <h1 className="text-5xl md:text-7xl font-bold mb-4 quantum-text tracking-tight">
-            <TypingAnimation 
-              text="AI DEVELOPER" 
-              speed={100}
-              className="block"
-              onComplete={() => setTypingComplete(true)}
-            />
-          </h1>
-          
-          {typingComplete && (
-            <motion.div
-              initial={{ opacity: 0, scale: 0.8 }}
-              animate={{ opacity: 1, scale: 1 }}
-              transition={{ duration: 0.8, delay: 0.5 }}
-            >
-              <h2 className="text-xl md:text-2xl text-muted-foreground font-light">
-                Modern Web Solutions & AI Integration
-              </h2>
-            </motion.div>
-          )}
-        </motion.div>
-
-        {/* Holographic cards grid */}
-        <motion.div 
-          variants={itemVariants}
-          className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12"
-        >
-          <HolographicCard delay={0.2}>
-            <div className="text-center">
-              <div className="w-12 h-12 mx-auto mb-4 bg-gradient-neural rounded-full flex items-center justify-center neural-glow">
-                <span className="text-2xl">🧠</span>
-              </div>
-              <h3 className="text-lg font-semibold mb-2">AI Integration</h3>
-              <p className="text-sm text-muted-foreground">
-                Modern AI solutions for web applications
-              </p>
-            </div>
-          </HolographicCard>
-
-          <HolographicCard delay={0.4}>
-            <div className="text-center">
-              <div className="w-12 h-12 mx-auto mb-4 bg-gradient-holographic rounded-full flex items-center justify-center">
-                <span className="text-2xl">⚡</span>
-              </div>
-              <h3 className="text-lg font-semibold mb-2">React & TypeScript</h3>
-              <p className="text-sm text-muted-foreground">
-                Scalable frontend development
-              </p>
-            </div>
-          </HolographicCard>
-
-          <HolographicCard delay={0.6}>
-            <div className="text-center">
-              <div className="w-12 h-12 mx-auto mb-4 bg-gradient-quantum rounded-full flex items-center justify-center">
-                <span className="text-2xl">🚀</span>
-              </div>
-              <h3 className="text-lg font-semibold mb-2">User Experience</h3>
-              <p className="text-sm text-muted-foreground">
-                Intuitive and accessible design
-              </p>
-            </div>
-          </HolographicCard>
-        </motion.div>
-
-        {/* CTA Buttons */}
-        <motion.div 
-          variants={itemVariants}
-          className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12"
-        >
-          <Button 
-            variant="holographic" 
-            size="lg"
-            className="group"
-          >
-            Explore Portfolio
-            <ChevronDown className="ml-2 h-4 w-4 group-hover:translate-y-1 transition-transform" />
-          </Button>
-          
-          <div className="flex gap-3">
-            <Button variant="glass" size="icon">
-              <Github className="h-4 w-4" />
-            </Button>
-            <Button variant="glass" size="icon">
-              <Linkedin className="h-4 w-4" />
-            </Button>
-            <Button variant="glass" size="icon">
-              <Mail className="h-4 w-4" />
-            </Button>
-          </div>
-        </motion.div>
-
-        {/* Status indicator */}
-        <motion.div 
-          variants={itemVariants}
-          className="flex items-center justify-center gap-2 text-sm text-muted-foreground font-mono"
-        >
-          <div className="w-2 h-2 bg-neural-glow rounded-full animate-pulse" />
-          <span>AVAILABLE FOR OPPORTUNITIES • REMOTE READY</span>
-          <div className="w-2 h-2 bg-primary rounded-full animate-pulse" />
-        </motion.div>
-      </motion.div>
-
-      {/* Floating scroll indicator */}
-      <motion.div
-        initial={{ opacity: 0, y: 20 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 1, delay: 2 }}
-        className="absolute bottom-8 left-1/2 transform -translate-x-1/2"
-      >
-        <motion.div
-          animate={{ y: [0, 10, 0] }}
-          transition={{ duration: 2, repeat: Infinity }}
-          className="w-6 h-10 border-2 border-primary/30 rounded-full flex justify-center"
-        >
+    <section id="home" className="min-h-screen flex items-center justify-center relative px-6 pt-20">
+      <div className="max-w-7xl mx-auto">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+          {/* Left Content */}
           <motion.div
-            animate={{ y: [0, 16, 0] }}
-            transition={{ duration: 2, repeat: Infinity }}
-            className="w-1 h-3 bg-primary rounded-full mt-2"
-          />
-        </motion.div>
-      </motion.div>
+            variants={containerVariants}
+            initial="hidden"
+            animate="visible"
+            className="space-y-8"
+          >
+            {/* Name Badge */}
+            <motion.div variants={itemVariants}>
+              <span className="inline-block px-4 py-2 bg-primary/10 text-primary rounded-full text-sm font-medium">
+                Alex Chen
+              </span>
+            </motion.div>
+
+            {/* Main Heading */}
+            <motion.div variants={itemVariants}>
+              <h1 className="text-5xl lg:text-6xl font-bold mb-6 leading-tight">
+                I'm <span className="quantum-text">Tech Enthusiast</span>
+              </h1>
+              
+              <p className="text-lg text-muted-foreground leading-relaxed max-w-lg">
+                Final year Computer Science student passionate about full-stack development. 
+                Skilled in building end-to-end web applications with a strong foundation 
+                in both tech and business concepts.
+              </p>
+            </motion.div>
+
+            {/* CTA Buttons */}
+            <motion.div variants={itemVariants} className="flex flex-col sm:flex-row gap-4">
+              <Button variant="default" size="lg" className="w-fit">
+                Download CV
+              </Button>
+              
+              <div className="flex gap-3">
+                <Button variant="outline" size="icon">
+                  <Github className="h-4 w-4" />
+                </Button>
+                <Button variant="outline" size="icon">
+                  <Linkedin className="h-4 w-4" />
+                </Button>
+                <Button variant="outline" size="icon">
+                  <Mail className="h-4 w-4" />
+                </Button>
+              </div>
+            </motion.div>
+
+            {/* Status indicator */}
+            <motion.div 
+              variants={itemVariants}
+              className="flex items-center gap-2 text-sm text-muted-foreground"
+            >
+              <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse" />
+              <span>Available for opportunities</span>
+            </motion.div>
+          </motion.div>
+
+          {/* Right Content - Profile Image */}
+          <motion.div
+            initial={{ opacity: 0, scale: 0.8 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.8, delay: 0.5 }}
+            className="flex justify-center lg:justify-end"
+          >
+            <div className="w-80 h-80 rounded-full overflow-hidden border-4 border-primary/20 shadow-2xl">
+              <img 
+                src="/lovable-uploads/a401a34d-9515-4661-a53e-baedaa7568f0.png"
+                alt="Alex Chen - Tech Enthusiast"
+                className="w-full h-full object-cover"
+              />
+            </div>
+          </motion.div>
+        </div>
+      </div>
     </section>
   )
 }
