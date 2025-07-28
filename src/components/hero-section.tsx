@@ -97,7 +97,7 @@ export default function HeroSection() {
           >
             <div className="w-80 h-80 rounded-full overflow-hidden border-4 border-primary/20 shadow-2xl">
               <img 
-                src="/lovable-uploads/a401a34d-9515-4661-a53e-baedaa7568f0.png"
+                src="/lovable-uploads/76c69323-fe4a-45df-a025-a17ab3e53299.png"
                 alt="Alex Chen - Tech Enthusiast"
                 className="w-full h-full object-cover"
               />
