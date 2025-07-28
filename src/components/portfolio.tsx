@@ -2,6 +2,8 @@ import Navigation from '@/components/navigation'
 import HeroSection from '@/components/hero-section'
 import AboutSection from '@/components/sections/about-section'
 import ProjectsSection from '@/components/sections/projects-section'
+import ResearchSection from '@/components/sections/research-section'
+import EducationSection from '@/components/sections/education-section'
 import ContactSection from '@/components/sections/contact-section'
 
 export default function Portfolio() {
@@ -18,6 +20,8 @@ export default function Portfolio() {
         <HeroSection />
         <AboutSection />
         <ProjectsSection />
+        <ResearchSection />
+        <EducationSection />
         <ContactSection />
       </main>
       
