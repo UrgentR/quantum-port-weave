@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion'
 import { Button } from '@/components/ui/button'
 import { useState, useEffect } from 'react'
+import { ThemeToggle } from '@/components/theme-toggle'
 
 const navItems = [
   { label: 'Home', href: '#home' },
@@ -95,12 +96,14 @@ export default function Navigation() {
             ))}
           </div>
 
-          {/* Download CV Button */}
+          {/* Theme Toggle and Download CV */}
           <motion.div
             initial={{ opacity: 0, x: 20 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5, delay: 0.3 }}
+            className="flex items-center gap-2"
           >
+            <ThemeToggle />
             <Button variant="outline" size="sm" className="font-medium">
               Download CV
             </Button>
