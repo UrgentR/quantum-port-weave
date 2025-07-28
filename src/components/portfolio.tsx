@@ -1,4 +1,3 @@
-import ThreeBackground from '@/components/ui/three-background'
 import Navigation from '@/components/navigation'
 import HeroSection from '@/components/hero-section'
 import AboutSection from '@/components/sections/about-section'
@@ -7,9 +6,9 @@ import ContactSection from '@/components/sections/contact-section'
 
 export default function Portfolio() {
   return (
-    <div className="relative">
-      {/* 3D Background */}
-      <ThreeBackground />
+    <div className="relative min-h-screen bg-background">
+      {/* Static Background */}
+      <div className="fixed inset-0 -z-10 bg-gradient-to-br from-background via-background to-background/95" />
       
       {/* Navigation */}
       <Navigation />
