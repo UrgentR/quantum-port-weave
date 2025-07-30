@@ -95,7 +95,7 @@ export default function ContactSection() {
             transition={{ duration: 0.8, delay: 0.2 }}
             viewport={{ once: true }}
           >
-            <HolographicCard delay={0.3}>
+            <HolographicCard delay={0.3} hoverable={false}>
               <form className="space-y-6">
                 <div>
                   <h3 className="text-2xl font-bold mb-6">Send Message</h3>

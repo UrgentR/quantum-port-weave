@@ -56,7 +56,7 @@ export default function ProjectsSection() {
               transition={{ duration: 0.6, delay: index * 0.1 }}
               viewport={{ once: true }}
             >
-              <HolographicCard delay={index * 0.1}>
+              <HolographicCard delay={index * 0.1} hoverable={false}>
                 <div className="space-y-4">
                   {/* Project Icon */}
                   <div className={`w-16 h-16 bg-${project.gradient} rounded-xl flex items-center justify-center text-3xl mb-4`}>

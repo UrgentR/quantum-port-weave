@@ -37,7 +37,7 @@ export default function ResearchSection() {
 
         <div className="space-y-8">
           {researchPapers.map((paper, index) => (
-            <HolographicCard key={index} delay={index * 0.1} className="group">
+            <HolographicCard key={index} delay={index * 0.1} className="group" hoverable={false}>
               <div className="flex flex-col md:flex-row md:items-start gap-6">
                 <div className="flex-1">
                   <div className="flex items-start justify-between mb-3">
@@ -104,15 +104,15 @@ export default function ResearchSection() {
           className="text-center mt-16"
         >
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <HolographicCard className="text-center">
+            <HolographicCard className="text-center" hoverable={false}>
               <div className="text-3xl font-bold text-primary mb-2">1</div>
               <p className="text-muted-foreground">Publications</p>
             </HolographicCard>
-            <HolographicCard className="text-center">
+            <HolographicCard className="text-center" hoverable={false}>
               <div className="text-3xl font-bold text-primary mb-2">0</div>
               <p className="text-muted-foreground">Citations</p>
             </HolographicCard>
-            <HolographicCard className="text-center">
+            <HolographicCard className="text-center" hoverable={false}>
               <div className="text-3xl font-bold text-primary mb-2">2025</div>
               <p className="text-muted-foreground">Research Year</p>
             </HolographicCard>

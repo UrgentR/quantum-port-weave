@@ -52,7 +52,7 @@ export default function AboutSection() {
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Bio Card */}
-          <HolographicCard delay={0.2}>
+          <HolographicCard delay={0.2} hoverable={false}>
             <div className="space-y-6">
               <div className="w-16 h-16 bg-gradient-holographic rounded-full flex items-center justify-center mb-6">
                 <Brain className="h-8 w-8 text-background" />

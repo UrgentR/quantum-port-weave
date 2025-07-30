@@ -76,7 +76,7 @@ export default function EducationSection() {
         {/* Education Timeline */}
         <div className="space-y-12 mb-20">
           {education.map((edu, index) => (
-            <HolographicCard key={index} delay={index * 0.1} className="relative">
+            <HolographicCard key={index} delay={index * 0.1} className="relative" hoverable={false}>
               <div className="flex flex-col lg:flex-row gap-8">
                 <div className="lg:w-1/3">
                   <div className="flex items-center gap-3 mb-4">
@@ -147,7 +147,7 @@ export default function EducationSection() {
           <h3 className="text-2xl font-bold mb-8 text-center">Professional Certifications</h3>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {certifications.map((cert, index) => (
-              <HolographicCard key={index} delay={index * 0.1} className="text-center group">
+              <HolographicCard key={index} delay={index * 0.1} className="text-center group" hoverable={false}>
                 <div className="text-4xl mb-4">{cert.icon}</div>
                 <h4 className="font-semibold mb-2 group-hover:text-primary transition-colors">
                   {cert.name}
