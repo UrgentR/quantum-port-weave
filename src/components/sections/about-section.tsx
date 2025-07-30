@@ -7,27 +7,27 @@ export default function AboutSection() {
   const skills = [
     {
       icon: <Brain className="h-6 w-6" />,
-      title: "AI Development",
-      description: "Machine learning, neural networks, and intelligent systems",
-      progress: 90
+      title: "Artificial Intelligence",
+      description: "Machine learning algorithms, neural networks, and data science",
+      progress: 88
     },
     {
       icon: <Code className="h-6 w-6" />,
-      title: "Full-Stack Development", 
-      description: "React, Node.js, Python, and modern web technologies",
-      progress: 95
+      title: "Programming", 
+      description: "Python, JavaScript, SQL, C++, Java and modern frameworks",
+      progress: 90
     },
     {
       icon: <Palette className="h-6 w-6" />,
-      title: "UI/UX Design",
-      description: "Creative interfaces with focus on user experience",
+      title: "Web Development",
+      description: "Modern web technologies and responsive design",
       progress: 85
     },
     {
       icon: <Zap className="h-6 w-6" />,
-      title: "3D Graphics",
-      description: "Three.js, WebGL, and immersive experiences",
-      progress: 80
+      title: "Blockchain",
+      description: "Smart contracts, cryptocurrency, and decentralized systems",
+      progress: 75
     }
   ]
 
@@ -45,8 +45,8 @@ export default function AboutSection() {
             About Me
           </h2>
           <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            I'm a software engineer specializing in AI-driven web applications, 
-            modern development practices, and innovative user experiences.
+            I'm a Computer Applications graduate specializing in Artificial Intelligence with 
+            strong skills in software development and data science.
           </p>
         </motion.div>
 
@@ -58,17 +58,18 @@ export default function AboutSection() {
                 <Brain className="h-8 w-8 text-background" />
               </div>
               
-              <h3 className="text-2xl font-bold mb-4">Software Engineer</h3>
+              <h3 className="text-2xl font-bold mb-4">CS Graduate & AI Enthusiast</h3>
               
               <div className="space-y-4 text-muted-foreground leading-relaxed">
                 <p>
-                  I specialize in developing scalable web applications with a focus on 
-                  artificial intelligence integration, modern UI/UX design, and 
-                  performance optimization.
+                  I specialize in artificial intelligence and software development, with 
+                  experience in machine learning algorithms, web applications, and 
+                  blockchain technologies.
                 </p>
                 <p>
-                  With expertise in React, TypeScript, and AI technologies, I build 
-                  solutions that are elegant, efficient, and user-centered.
+                  Passionate about applying innovative technologies to solve real-world 
+                  problems, with published research in financial fraud detection using 
+                  neural networks.
                 </p>
               </div>
 

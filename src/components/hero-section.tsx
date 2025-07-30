@@ -42,20 +42,20 @@ export default function HeroSection() {
             {/* Name Badge */}
             <motion.div variants={itemVariants}>
               <span className="inline-block px-4 py-2 bg-primary/10 text-primary rounded-full text-sm font-medium">
-                Alex Chen
+                Nuthan M C
               </span>
             </motion.div>
 
             {/* Main Heading */}
             <motion.div variants={itemVariants}>
               <h1 className="text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-                I'm <span className="quantum-text">Tech Enthusiast</span>
+                I'm <span className="quantum-text">CS Graduate</span>
               </h1>
               
               <p className="text-lg text-muted-foreground leading-relaxed max-w-lg">
-                Final year Computer Science student passionate about full-stack development. 
-                Skilled in building end-to-end web applications with a strong foundation 
-                in both tech and business concepts.
+                Computer Applications graduate specialized in Artificial Intelligence with 
+                strong skills in software development and data science. Proficient in Python, 
+                SQL, and tools like Pandas and Scikit-learn.
               </p>
             </motion.div>
 
@@ -98,7 +98,7 @@ export default function HeroSection() {
             <div className="w-80 h-80 rounded-full overflow-hidden border-4 border-primary/20 shadow-2xl">
               <img 
                 src="/lovable-uploads/292e909c-0907-44ad-97c8-b787e138974c.png"
-                alt="Alex Chen - Tech Enthusiast"
+                alt="Nuthan M C - CS Graduate"
                 className="w-full h-full object-cover"
               />
             </div>

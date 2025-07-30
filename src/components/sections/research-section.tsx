@@ -5,34 +5,14 @@ import { ExternalLink, FileText, Users } from 'lucide-react'
 
 const researchPapers = [
   {
-    title: "Advanced Neural Networks for Real-time Image Processing",
-    journal: "IEEE Transactions on Neural Networks",
-    year: "2024",
-    authors: "Smith, J., Doe, A., Wilson, K.",
-    abstract: "This paper presents a novel approach to real-time image processing using advanced neural network architectures, achieving 40% faster processing times while maintaining accuracy.",
-    tags: ["Machine Learning", "Computer Vision", "Neural Networks"],
+    title: "Neural Networks for Financial Fraud Detection: Enhancing Security with Scalable Machine Learning and Deep Learning Solutions",
+    journal: "IEEE Xplore",
+    year: "2025",
+    authors: "Nuthan M C, et al.",
+    abstract: "Published research on scalable deep learning methods for financial fraud detection. Exploring enhanced security approaches using neural network architectures for real-time fraud prevention in financial systems.",
+    tags: ["Neural Networks", "Financial Security", "Machine Learning", "Deep Learning"],
     link: "#",
-    citations: 45
-  },
-  {
-    title: "Sustainable Computing: Green Algorithms for Data Centers",
-    journal: "Journal of Sustainable Computing",
-    year: "2023",
-    authors: "Doe, A., Brown, M., Taylor, R.",
-    abstract: "An innovative framework for reducing energy consumption in data centers through intelligent algorithm optimization and resource allocation.",
-    tags: ["Sustainability", "Algorithms", "Cloud Computing"],
-    link: "#",
-    citations: 32
-  },
-  {
-    title: "Blockchain Integration in Modern Web Applications",
-    journal: "ACM Computing Surveys",
-    year: "2023",
-    authors: "Doe, A., Garcia, L., Johnson, P.",
-    abstract: "Comprehensive analysis of blockchain integration patterns in web applications, examining security, scalability, and performance implications.",
-    tags: ["Blockchain", "Web Development", "Security"],
-    link: "#",
-    citations: 28
+    citations: 0
   }
 ]
 
@@ -125,16 +105,16 @@ export default function ResearchSection() {
         >
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <HolographicCard className="text-center">
-              <div className="text-3xl font-bold text-primary mb-2">15+</div>
+              <div className="text-3xl font-bold text-primary mb-2">1</div>
               <p className="text-muted-foreground">Publications</p>
             </HolographicCard>
             <HolographicCard className="text-center">
-              <div className="text-3xl font-bold text-primary mb-2">250+</div>
+              <div className="text-3xl font-bold text-primary mb-2">0</div>
               <p className="text-muted-foreground">Citations</p>
             </HolographicCard>
             <HolographicCard className="text-center">
-              <div className="text-3xl font-bold text-primary mb-2">H-Index: 8</div>
-              <p className="text-muted-foreground">Research Impact</p>
+              <div className="text-3xl font-bold text-primary mb-2">2025</div>
+              <p className="text-muted-foreground">Research Year</p>
             </HolographicCard>
           </div>
         </motion.div>

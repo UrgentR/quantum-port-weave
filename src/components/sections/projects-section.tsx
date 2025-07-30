@@ -6,45 +6,24 @@ import { ExternalLink, Github, Play } from 'lucide-react'
 export default function ProjectsSection() {
   const projects = [
     {
-      title: "Neural Network Visualizer",
-      description: "Real-time 3D visualization of artificial neural networks with interactive training simulation",
-      image: "🧠",
-      tags: ["Three.js", "TensorFlow.js", "React", "WebGL"],
+      title: "Farmers-Hub",
+      description: "Comprehensive platform using MERN, TensorFlow, and CNN to empower farmers with drone management, e-commerce, crop disease diagnosis, and real-time communication",
+      image: "🌾",
+      tags: ["MERN", "TensorFlow", "CNN", "Node.js"],
       gradient: "gradient-neural"
     },
     {
-      title: "Holographic UI Framework",
-      description: "A revolutionary UI library for creating floating, holographic interfaces in web applications",
-      image: "✨",
-      tags: ["React", "Framer Motion", "CSS3", "TypeScript"],
+      title: "IntegraCrop",
+      description: "AI-powered Crop Doctor for disease detection and nutritional recommendations. Enabled warehouse storage booking and trading of goods with global chat hub for networking",
+      image: "🌱",
+      tags: ["AI", "Disease Detection", "React", "Global Chat"],
       gradient: "gradient-holographic"
     },
     {
-      title: "Quantum Computing Simulator",
-      description: "Interactive quantum circuit simulator with real-time qubit state visualization",
-      image: "⚛️",
-      tags: ["WebAssembly", "Rust", "React", "D3.js"],
-      gradient: "gradient-quantum"
-    },
-    {
-      title: "AI Voice Assistant",
-      description: "Intelligent voice assistant with natural language processing and 3D avatar interaction",
-      image: "🎙️",
-      tags: ["WebRTC", "NLP", "Three.js", "Node.js"],
-      gradient: "gradient-neural"
-    },
-    {
-      title: "Metaverse Portfolio",
-      description: "Immersive 3D portfolio experience in a virtual environment with physics simulation",
-      image: "🌌",
-      tags: ["Three.js", "Cannon.js", "WebXR", "GLSL"],
-      gradient: "gradient-holographic"
-    },
-    {
-      title: "Blockchain Visualizer",
-      description: "Real-time 3D visualization of blockchain networks and transaction flows",
+      title: "Grade-Chain",
+      description: "Blockchain-based system to securely store and verify academic results using smart contracts. Tamper-proof, decentralized access for institutions, improving trust in academic record management",
       image: "⛓️",
-      tags: ["Web3.js", "Three.js", "Solidity", "React"],
+      tags: ["Blockchain", "Smart Contracts", "Academic Records"],
       gradient: "gradient-quantum"
     }
   ]

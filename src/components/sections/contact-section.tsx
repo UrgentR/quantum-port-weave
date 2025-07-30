@@ -10,26 +10,26 @@ export default function ContactSection() {
     {
       icon: <Mail className="h-6 w-6" />,
       title: "Email",
-      value: "hello@aiportfolio.dev",
+      value: "nuthanmc4@gmail.com",
       description: "Get in touch via email"
     },
     {
       icon: <Phone className="h-6 w-6" />,
       title: "Phone",
-      value: "+1 (555) 123-4567",
+      value: "+91 9353671680",
       description: "Call for urgent inquiries"
     },
     {
       icon: <MapPin className="h-6 w-6" />,
       title: "Location",
-      value: "San Francisco, CA",
-      description: "Available worldwide remotely"
+      value: "Chikkamagaluru",
+      description: "Available for remote work"
     },
     {
       icon: <MessageSquare className="h-6 w-6" />,
-      title: "Discord",
-      value: "aidev#1337",
-      description: "Let's chat on Discord"
+      title: "Website",
+      value: "yourwebsite.com",
+      description: "Visit my portfolio"
     }
   ]
 
@@ -47,7 +47,7 @@ export default function ContactSection() {
             Contact
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Ready to bring your ideas to life? Let's create something extraordinary together.
+            Ready to collaborate? Let's discuss opportunities in AI, machine learning, or software development.
           </p>
         </motion.div>
 

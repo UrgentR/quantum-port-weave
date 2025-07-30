@@ -5,76 +5,52 @@ import { GraduationCap, Award, BookOpen, Calendar } from 'lucide-react'
 
 const education = [
   {
-    degree: "Ph.D. in Computer Science",
-    institution: "Stanford University",
-    location: "Stanford, CA",
-    duration: "2018 - 2022",
-    gpa: "3.9/4.0",
-    thesis: "Advanced Machine Learning Algorithms for Distributed Systems",
-    advisor: "Dr. Sarah Johnson",
+    degree: "Bachelor of Computer Applications",
+    institution: "Nitte University",
+    location: "Mangaluru, KA",
+    duration: "Aug 2022 - May 2025",
+    gpa: "8.10/10",
+    thesis: "Computer Architecture, Comparison of Learning Algorithms, Computational Theory",
+    advisor: "University Faculty",
     achievements: [
-      "Stanford Graduate Fellowship Recipient",
-      "Best Dissertation Award 2022",
-      "Published 8 peer-reviewed papers during PhD"
+      "CGPA: 8.10/10",
+      "Coursework in Computer Architecture and Learning Algorithms",
+      "Published research on Neural Networks for Financial Fraud Detection"
     ],
-    coursework: ["Advanced Algorithms", "Machine Learning Theory", "Distributed Systems", "Quantum Computing"]
-  },
-  {
-    degree: "Master of Science in Software Engineering",
-    institution: "MIT",
-    location: "Cambridge, MA", 
-    duration: "2016 - 2018",
-    gpa: "3.85/4.0",
-    thesis: "Scalable Web Architectures for High-Traffic Applications",
-    advisor: "Dr. Michael Chen",
-    achievements: [
-      "Dean's List for Academic Excellence",
-      "Outstanding Graduate Student Award",
-      "Teaching Assistant for Advanced Algorithms"
-    ],
-    coursework: ["Software Architecture", "Database Systems", "Web Technologies", "System Design"]
-  },
-  {
-    degree: "Bachelor of Science in Computer Science",
-    institution: "University of California, Berkeley",
-    location: "Berkeley, CA",
-    duration: "2012 - 2016",
-    gpa: "3.7/4.0",
-    thesis: "Mobile Application Development for Social Networks",
-    advisor: "Dr. Emily Rodriguez",
-    achievements: [
-      "Magna Cum Laude Graduate",
-      "ACM Student Chapter President",
-      "Hackathon Winner - Cal Hacks 2015"
-    ],
-    coursework: ["Data Structures", "Computer Networks", "Mobile Development", "Human-Computer Interaction"]
+    coursework: ["Computer Architecture", "Learning Algorithms", "Computational Theory", "Data Structures"]
   }
 ]
 
 const certifications = [
   {
-    name: "AWS Solutions Architect Professional",
-    issuer: "Amazon Web Services",
-    year: "2023",
-    icon: "🏆"
+    name: "Infosys - Springboard - Artificial Intelligence and Machine learning",
+    issuer: "Infosys",
+    year: "Aug 2024 - July 2025",
+    icon: "🧠"
   },
   {
-    name: "Google Cloud Professional Cloud Architect",
-    issuer: "Google Cloud",
-    year: "2023",
-    icon: "☁️"
+    name: "Udemy - Data Science",
+    issuer: "Udemy",
+    year: "2024",
+    icon: "📊"
   },
   {
-    name: "Certified Kubernetes Administrator",
-    issuer: "Cloud Native Computing Foundation",
-    year: "2022",
-    icon: "🎯"
+    name: "TCS ion certification - Young Professional Course",
+    issuer: "TCS",
+    year: "2024",
+    icon: "🎓"
   },
   {
-    name: "Machine Learning Engineering Certification",
-    issuer: "Coursera - Stanford",
-    year: "2021",
-    icon: "🤖"
+    name: "MicroDegree - Python Full Stack Development",
+    issuer: "MicroDegree",
+    year: "2024",
+    icon: "🐍"
+  },
+  {
+    name: "Hacker Rank - Python .C and Java",
+    issuer: "HackerRank",
+    year: "2024",
+    icon: "💻"
   }
 ]
 
